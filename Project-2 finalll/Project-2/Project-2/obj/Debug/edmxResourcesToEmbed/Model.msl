@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLTCModelStoreContainer" CdmEntityContainer="QLTCEntities2">
+    <EntitySetMapping Name="CHITIETSUDUNGs">
+      <EntityTypeMapping TypeName="QLTCModel.CHITIETSUDUNG">
+        <MappingFragment StoreEntitySet="CHITIETSUDUNG">
+          <ScalarProperty Name="ID_SIM" ColumnName="ID_SIM" />
+          <ScalarProperty Name="TG_BATDAU" ColumnName="TG_BATDAU" />
+          <ScalarProperty Name="TG_KETTHUC" ColumnName="TG_KETTHUC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONTINHCUOCs">
+      <EntityTypeMapping TypeName="QLTCModel.HOADONTINHCUOC">
+        <MappingFragment StoreEntitySet="HOADONTINHCUOC">
+          <ScalarProperty Name="ID_SIM" ColumnName="ID_SIM" />
+          <ScalarProperty Name="So_Hoa_Don" ColumnName="So_Hoa_Don" />
+          <ScalarProperty Name="Ngay_Thang" ColumnName="Ngay_Thang" />
+          <ScalarProperty Name="Tong_Tien" ColumnName="Tong_Tien" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QLTCModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="HOVATEN" ColumnName="HOVATEN" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NGHENGHIEP" ColumnName="NGHENGHIEP" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="GMAIL" ColumnName="GMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SIMs">
+      <EntityTypeMapping TypeName="QLTCModel.SIM">
+        <MappingFragment StoreEntitySet="SIM">
+          <ScalarProperty Name="id_Sim" ColumnName="id_Sim" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NgayKichHoat" ColumnName="NgayKichHoat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THAMSOes">
+      <EntityTypeMapping TypeName="QLTCModel.THAMSO">
+        <MappingFragment StoreEntitySet="THAMSO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GIATRI" ColumnName="GIATRI" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

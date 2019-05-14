@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLTCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CHITIETSUDUNG">
+    <Key>
+      <PropertyRef Name="ID_SIM" />
+      <PropertyRef Name="TG_BATDAU" />
+    </Key>
+    <Property Name="ID_SIM" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TG_BATDAU" Type="datetime" Nullable="false" />
+    <Property Name="TG_KETTHUC" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HOADONTINHCUOC">
+    <Key>
+      <PropertyRef Name="So_Hoa_Don" />
+    </Key>
+    <Property Name="ID_SIM" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="So_Hoa_Don" Type="int" Nullable="false" />
+    <Property Name="Ngay_Thang" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tong_Tien" Type="varchar" MaxLength="10" />
+    <Property Name="TrangThai" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="CMND" />
+    </Key>
+    <Property Name="HOVATEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="CMND" Type="int" Nullable="false" />
+    <Property Name="NGHENGHIEP" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="50" />
+    <Property Name="GMAIL" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'QLTC.dbo.NGAYGIO' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="NGAYGIO">
+          <Property Name="GIO_BD" Type="varchar" MaxLength="20" />
+          <Property Name="GIO_KT" Type="varchar" MaxLength="20" />
+          <Property Name="GIA" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="SIM">
+    <Key>
+      <PropertyRef Name="id_Sim" />
+    </Key>
+    <Property Name="id_Sim" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CMND" Type="int" />
+    <Property Name="NgayKichHoat" Type="datetime" />
+  </EntityType>
+  <EntityType Name="THAMSO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="GIATRI" Type="varchar" MaxLength="10" />
+    <Property Name="GHICHU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__CHITIETSU__ID_SI__5629CD9C">
+    <End Role="SIM" Type="Self.SIM" Multiplicity="1" />
+    <End Role="CHITIETSUDUNG" Type="Self.CHITIETSUDUNG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SIM">
+        <PropertyRef Name="id_Sim" />
+      </Principal>
+      <Dependent Role="CHITIETSUDUNG">
+        <PropertyRef Name="ID_SIM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HOADONTIN__ID_SI__534D60F1">
+    <End Role="SIM" Type="Self.SIM" Multiplicity="1" />
+    <End Role="HOADONTINHCUOC" Type="Self.HOADONTINHCUOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SIM">
+        <PropertyRef Name="id_Sim" />
+      </Principal>
+      <Dependent Role="HOADONTINHCUOC">
+        <PropertyRef Name="ID_SIM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SIM__CMND__5070F446">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="SIM" Type="Self.SIM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="CMND" />
+      </Principal>
+      <Dependent Role="SIM">
+        <PropertyRef Name="CMND" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLTCModelStoreContainer">
+    <EntitySet Name="CHITIETSUDUNG" EntityType="Self.CHITIETSUDUNG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOADONTINHCUOC" EntityType="Self.HOADONTINHCUOC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHACHHANG" EntityType="Self.KHACHHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SIM" EntityType="Self.SIM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THAMSO" EntityType="Self.THAMSO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__CHITIETSU__ID_SI__5629CD9C" Association="Self.FK__CHITIETSU__ID_SI__5629CD9C">
+      <End Role="SIM" EntitySet="SIM" />
+      <End Role="CHITIETSUDUNG" EntitySet="CHITIETSUDUNG" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HOADONTIN__ID_SI__534D60F1" Association="Self.FK__HOADONTIN__ID_SI__534D60F1">
+      <End Role="SIM" EntitySet="SIM" />
+      <End Role="HOADONTINHCUOC" EntitySet="HOADONTINHCUOC" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SIM__CMND__5070F446" Association="Self.FK__SIM__CMND__5070F446">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="SIM" EntitySet="SIM" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,85 @@
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project-2.csprojAssemblyReference.cache
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project_2.FormQuanLyNguoiDung.resources
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project_2.Properties.Resources.resources
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project-2.csproj.GenerateResource.cache
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project-2.csproj.CoreCompileInputs.cache
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\Project-2.exe.config
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\Project-2.exe
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\EntityFramework.dll
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\EntityFramework.xml
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project-2.csproj.CopyComplete
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project-2.exe
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project_2.thongtinchitiet.resources
+C:\Users\Toan Nguyen\source\repos\Project-2\Project-2\obj\Debug\Project_2.thongtinhoadon.resources
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe.config
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.pdb
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.dll
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.xml
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csprojAssemblyReference.cache
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.FormQuanLyNguoiDung.resources
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.Properties.Resources.resources
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinchitiet.resources
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinhoadon.resources
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CopyComplete
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.exe
+C:\Users\User\Downloads\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe.config
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.dll
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.xml
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.FormQuanLyNguoiDung.resources
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.Properties.Resources.resources
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinchitiet.resources
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinhoadon.resources
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.GenerateResource.cache
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CoreCompileInputs.cache
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CopyComplete
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.exe
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\Desktop\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csprojAssemblyReference.cache
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe.config
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.dll
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.xml
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.FormQuanLyNguoiDung.resources
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.Properties.Resources.resources
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinchitiet.resources
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinhoadon.resources
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.GenerateResource.cache
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CoreCompileInputs.cache
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CopyComplete
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.exe
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.pdb
+C:\Users\Toan Nguyen\Desktop\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csprojAssemblyReference.cache
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe.config
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.exe
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\Project-2.pdb
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.dll
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.xml
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csprojAssemblyReference.cache
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.FormQuanLyNguoiDung.resources
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.Properties.Resources.resources
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinchitiet.resources
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project_2.thongtinhoadon.resources
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.csproj.CopyComplete
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.exe
+C:\Users\User\Downloads\18-4-2018 QLTC (1)\18-4-2018 QLTC\Project-2 finalll\Project-2 finalll\Project-2\Project-2\obj\Debug\Project-2.pdb

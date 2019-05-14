@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLTCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CHITIETSUDUNG">
+    <Key>
+      <PropertyRef Name="ThoiGianChiTiet" />
+    </Key>
+    <Property Name="ThoiGianChiTiet" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ID_SIM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TG_BATDAU" Type="Time" Precision="7" />
+    <Property Name="TG_KETTHUC" Type="Time" Precision="7" />
+    <NavigationProperty Name="SIM" Relationship="Self.FK__CHITIETSU__ID_SI__3F466844" FromRole="CHITIETSUDUNG" ToRole="SIM" />
+  </EntityType>
+  <EntityType Name="HOADONTINHCUOC">
+    <Key>
+      <PropertyRef Name="So_Hoa_Don" />
+    </Key>
+    <Property Name="ID_SIM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="So_Hoa_Don" Type="Int32" Nullable="false" />
+    <Property Name="Ngay_Thang" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tong_Tien" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TrangThai" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="THOIGIANSUDUNG" Type="Int32" />
+    <NavigationProperty Name="SIM" Relationship="Self.FK__HOADONTIN__ID_SI__3C69FB99" FromRole="HOADONTINHCUOC" ToRole="SIM" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="CMND" />
+    </Key>
+    <Property Name="HOVATEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CMND" Type="Int32" Nullable="false" />
+    <Property Name="NGHENGHIEP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CHUCVU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SIMs" Relationship="Self.FK__SIM__CMND__398D8EEE" FromRole="KHACHHANG" ToRole="SIM" />
+  </EntityType>
+  <EntityType Name="SIM">
+    <Key>
+      <PropertyRef Name="id_Sim" />
+    </Key>
+    <Property Name="id_Sim" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CMND" Type="Int32" />
+    <Property Name="NgayKichHoat" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="CHITIETSUDUNGs" Relationship="Self.FK__CHITIETSU__ID_SI__3F466844" FromRole="SIM" ToRole="CHITIETSUDUNG" />
+    <NavigationProperty Name="HOADONTINHCUOCs" Relationship="Self.FK__HOADONTIN__ID_SI__3C69FB99" FromRole="SIM" ToRole="HOADONTINHCUOC" />
+    <NavigationProperty Name="KHACHHANG" Relationship="Self.FK__SIM__CMND__398D8EEE" FromRole="SIM" ToRole="KHACHHANG" />
+  </EntityType>
+  <EntityType Name="THAMSO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GIATRI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__CHITIETSU__ID_SI__3F466844">
+    <End Role="SIM" Type="Self.SIM" Multiplicity="1" />
+    <End Role="CHITIETSUDUNG" Type="Self.CHITIETSUDUNG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SIM">
+        <PropertyRef Name="id_Sim" />
+      </Principal>
+      <Dependent Role="CHITIETSUDUNG">
+        <PropertyRef Name="ID_SIM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HOADONTIN__ID_SI__3C69FB99">
+    <End Role="SIM" Type="Self.SIM" Multiplicity="1" />
+    <End Role="HOADONTINHCUOC" Type="Self.HOADONTINHCUOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SIM">
+        <PropertyRef Name="id_Sim" />
+      </Principal>
+      <Dependent Role="HOADONTINHCUOC">
+        <PropertyRef Name="ID_SIM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SIM__CMND__398D8EEE">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="SIM" Type="Self.SIM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="CMND" />
+      </Principal>
+      <Dependent Role="SIM">
+        <PropertyRef Name="CMND" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLTCCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHITIETSUDUNGs" EntityType="Self.CHITIETSUDUNG" />
+    <EntitySet Name="HOADONTINHCUOCs" EntityType="Self.HOADONTINHCUOC" />
+    <EntitySet Name="KHACHHANGs" EntityType="Self.KHACHHANG" />
+    <EntitySet Name="SIMs" EntityType="Self.SIM" />
+    <EntitySet Name="THAMSOes" EntityType="Self.THAMSO" />
+    <AssociationSet Name="FK__CHITIETSU__ID_SI__3F466844" Association="Self.FK__CHITIETSU__ID_SI__3F466844">
+      <End Role="SIM" EntitySet="SIMs" />
+      <End Role="CHITIETSUDUNG" EntitySet="CHITIETSUDUNGs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HOADONTIN__ID_SI__3C69FB99" Association="Self.FK__HOADONTIN__ID_SI__3C69FB99">
+      <End Role="SIM" EntitySet="SIMs" />
+      <End Role="HOADONTINHCUOC" EntitySet="HOADONTINHCUOCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SIM__CMND__398D8EEE" Association="Self.FK__SIM__CMND__398D8EEE">
+      <End Role="KHACHHANG" EntitySet="KHACHHANGs" />
+      <End Role="SIM" EntitySet="SIMs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

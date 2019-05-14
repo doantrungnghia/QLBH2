@@ -1,0 +1,68 @@
+﻿body {
+    background-color: #788c912e;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    min-width: 100%;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn_Search {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: white;
+    transition: 0.2s;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin-left: 7px;
+}
+
+span {
+    margin: 0 10px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+#lst_thang {
+    font-size: 14px;
+}
+
+.btn_Search:hover {
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.input_Search {
+    width: 50%;
+    color: grey;
+    border-radius: 5px;
+    padding: 7px 20px;
+    background-color: white;
+    height: 15px;
+    margin-left: 57px;
+}
+#txt_sdt{
+    border-radius: 5px;
+}
+table#GridView1 {
+    width: 80%;
+    margin: 20px auto;
+
+}
+tr {
+    height: 35px;
+}
+td {
+    padding: 0px 10px;
+}
